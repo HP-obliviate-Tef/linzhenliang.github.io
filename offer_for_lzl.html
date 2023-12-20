@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width">
+    <title>林振亮录取通道</title>
+    <link rel="stylesheet" href="styles/lzl.css">
+</head>
+<body>
+    <header>
+
+       <span> <img src="imgs/university.png"></span>
+
+    </header>
+<article>
+    <div class="auth_bg">
+        <img src="imgs/login-bg-autumn.jpg" alt="background">
+        <div class="auth_page_wrapper">
+            <div class="auth_login_content">
+
+                <div class="auth_login_right">
+                    <div class="xhbj">
+                        <div class="auth_tab">
+                            <div class="auth_tab_links">
+                                <ul>
+                                    <li id="accountLogin" style="width:100%;" class="selected" tabid="01">
+                                        <span>账号登录</span>
+
+                                        <span class="dlfsnav">今日校园</span>
+
+                                        <a href="combinedLogin.do?type=qrcode&amp;success=http://authserver.fjmu.edu.cn/authserver/login?service=https%3A%2F%2Fehall.fjmu.edu.cn%2Fnew%2Findex.html"><img class="ewmbg" src="/authserver/custom/images/saoma.png;JSESSIONID_AUTH=xkcxR4xeSmXGtZh50GwXZtjIxlgXVhVBUZsj30CYlDftEH9vgvjl!326117087" alt=""></a>
+
+
+
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+                            <div class="clearfloat"></div>
+                            <div class="auth_tab_content">
+                                <div tabid="01" class="auth_tab_content_item" style="display: block;">
+                                    <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="/authserver/login?service=https%3A%2F%2Fehall.fjmu.edu.cn%2Fnew%2Findex.html" method="post">
+
+
+                                        <p>
+                                            <i class="auth_icon auth_icon_user"></i>
+                                            <input id="username" name="username" placeholder="输入林振亮的名字" class="auth_input" type="text" value="">
+                                            <span id="usernameError" style="display:none;" class="auth_error">请输入用户名</span>
+                                        </p>
+
+                                        <p>
+                                            <i class="auth_icon auth_icon_pwd"></i>
+                                            <input id="password" placeholder="输入林振亮的考研总分" class="auth_input" type="password" value="" autocomplete="off">
+                                            <input id="passwordEncrypt" name="password" style="display:none;" type="text" value="">
+                                            <span id="passwordError" style="display:none;" class="auth_error">请输入密码</span>
+                                        </p>
+
+                                        <p id="cpatchaDiv">
+
+                                        </p>
+
+
+                                        <p>
+                                        <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" name="rememberMe" id="rememberMe" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> <label id="btn">点击免试录取</label>
+                                        <div id="popDiv">
+
+                                                <img src="imgs/whatdoyouthink.png" style="display:none;margin-top: 10px;" id="popimg">
+                                                <img src="imgs/Eatbread.jpg" style="display:none;margin-top: 10px;" id="bread">
+
+                                        </div>
+                                        <a id="getBackPasswordMainPage" href="Bread.html" class="auth_login_forgetp">
+                                            <small>忘记密码？</small>
+                                        </a>
+                                        </p>
+
+
+                                        <p>
+                                            <button type="submit" class="auth_login_btn primary full_width"><a href="offer.html"  style="text-decoration:none;color:white;">登录</a>
+                                            </button>
+                                        </p>
+
+                                        <input type="hidden" name="lt" value="LT-2339639-PkB0bNeCa5mfD9ygwvDUKaTlxLN3XQ1702877454083-U2EZ-cas">
+                                        <input type="hidden" name="dllt" value="userNamePasswordLogin">
+                                        <input type="hidden" name="execution" value="e92s1">
+                                        <input type="hidden" name="_eventId" value="submit">
+                                        <input type="hidden" name="rmShown" value="1">
+                                        <input type="hidden" id="pwdDefaultEncryptSalt" value="mxuWezX77rdCtTsw">
+                                    </form>
+                                </div>
+
+
+
+
+
+
+                                <ul class="cus_other_way">
+
+                                    <li>
+
+
+								                        <span class="auth_icon_bg">
+								                            <i class="auth_icon_weixin"></i>
+								                        </span>
+                                            <span class="auth_icon_text" id="face">帅哥请刷脸</span>
+
+
+
+                                    </li>
+
+                                    <li>
+
+
+                                    </li>
+
+                                </ul>
+                                <img src="imgs/face.png" style="display:none;margin-top: 10px;" id="facepng">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hidenCaptchaDiv" style="display: none;">
+                <i class="auth_icon auth_icon_bar"></i>
+                <input type="text" placeholder="验证码" id="captchaResponse" name="captchaResponse" class="auth_input captcha-input">
+                <img id="captchaImg" class="captcha-img" alt="验证码" title="验证码" src="captcha.html?ts=803">
+                <span style="cursor: pointer;color: #1dadff;margin-left: 2px;" id="changeCaptcha" class="chk_text"></span>
+                <span id="cpatchaError" style="display:none;" class="auth_error">请输入验证码</span>
+            </div>
+
+
+            <div class="clearfloat"></div>
+        </div>
+    </div>
+</article>
+    <footer>
+        <span><img src="imgs/lzl1121.png"></span>
+
+
+
+    </footer>
+    <script src="scripts/lzl.js" defer></script>
+</body>
+</html>
